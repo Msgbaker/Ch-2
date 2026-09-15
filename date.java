@@ -1,8 +1,10 @@
 public class date {
 	public static void main(String[] arg){
-		int day=14;
+		int Date=14;
+		String day="Monday";
 		String month="September ";
 		int year=2026;
-		System.out.println(month + day + ", " + year);
+		System.out.println("American format: " + day + ", " + month + Date + ", " + year);
+		System.out.println("European format: " + Date + " " + month + day + " " + year);
 	}
 }
